@@ -35,7 +35,7 @@ public class CoordinateConversion {
     }
     
     //Convert
-    public void coordConvert(String sourceCrs_string, String targetCrs_string, Point point) {
+    public Point coordConvert(String sourceCrs_string, String targetCrs_string, Point point) {
 	
 	CoordinateReferenceSystem sourceCrs = null;
 	CoordinateReferenceSystem targetCrs = null;
@@ -91,6 +91,8 @@ public class CoordinateConversion {
 	
 	point.x = destDirectPosition2D.y; //lng
 	point.y = destDirectPosition2D.x; //lat
+	
+	return   point;
     }
     
     
