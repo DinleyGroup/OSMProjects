@@ -38,6 +38,7 @@ public class Lod4Buiding {
 	
 	//System.out.println("The maximum value an int can have in Java: " + java.lang.Integer.MAX_VALUE);
 	String lod4building = "", lod4geometry = "", lod4appearance = "", lod4rooms = "";
+	//<editor-fold desc="Description generate building geomatry">
 	lod4building += makePretty("<?xml version=\"1.0\" encoding=\"ISO-8859-1\" standalone=\"yes\"?>", 0);
 	lod4building += makePretty("<!-- Written by OSM2CityGML Export Algorithm - Version 0.4b -->", 0);
 	lod4building += makePretty("<!-- Developed and implemented by Marcus Goetz, m.goetz@uni-heidelberg.de -->", 0);
@@ -45,13 +46,11 @@ public class Lod4Buiding {
 	lod4building += makePretty("<CityModel xmlns=\"http://www.opengis.net/citygml/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:smil20lang=\"http://www.w3.org/2001/SMIL20/Language\" xmlns:smil20=\"http://www.w3.org/2001/SMIL20/\" xmlns:xAL=\"urn:oasis:names:tc:ciq:xsdschema:xAL:2.0\" xmlns:gen=\"http://www.opengis.net/citygml/generics/1.0\" xmlns:veg=\"http://www.opengis.net/citygml/vegetation/1.0\" xmlns:wtr=\"http://www.opengis.net/citygml/waterbody/1.0\" xmlns:trans=\"http://www.opengis.net/citygml/transportation/1.0\" xmlns:tex=\"http://www.opengis.net/citygml/texturedsurface/1.0\" xmlns:app=\"http://www.opengis.net/citygml/appearance/1.0\" xmlns:frn=\"http://www.opengis.net/citygml/cityfurniture/1.0\" xmlns:grp=\"http://www.opengis.net/citygml/cityobjectgroup/1.0\" xmlns:bldg=\"http://www.opengis.net/citygml/building/1.0\" xmlns:luse=\"http://www.opengis.net/citygml/landuse/1.0\" xmlns:dem=\"http://www.opengis.net/citygml/relief/1.0\" xmlns:gml=\"http://www.opengis.net/gml\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.opengis.net/citygml/landuse/1.0 http://schemas.opengis.net/citygml/landuse/1.0/landUse.xsd http://www.opengis.net/citygml/cityfurniture/1.0 http://schemas.opengis.net/citygml/cityfurniture/1.0/cityFurniture.xsd http://www.opengis.net/citygml/appearance/1.0 http://schemas.opengis.net/citygml/appearance/1.0/appearance.xsd http://www.opengis.net/citygml/texturedsurface/1.0 http://schemas.opengis.net/citygml/texturedsurface/1.0/texturedSurface.xsd http://www.opengis.net/citygml/transportation/1.0 http://schemas.opengis.net/citygml/transportation/1.0/transportation.xsd http://www.opengis.net/citygml/waterbody/1.0 http://schemas.opengis.net/citygml/waterbody/1.0/waterBody.xsd http://www.opengis.net/citygml/building/1.0 http://schemas.opengis.net/citygml/building/1.0/building.xsd http://www.opengis.net/citygml/relief/1.0 http://schemas.opengis.net/citygml/relief/1.0/relief.xsd http://www.opengis.net/citygml/vegetation/1.0 http://schemas.opengis.net/citygml/vegetation/1.0/vegetation.xsd http://www.opengis.net/citygml/cityobjectgroup/1.0 http://schemas.opengis.net/citygml/cityobjectgroup/1.0/cityObjectGroup.xsd http://www.opengis.net/citygml/generics/1.0 http://schemas.opengis.net/citygml/generics/1.0/generics.xsd\">", 0);
 	lod4geometry += makePretty("<cityObjectMember>", 1);
 	lod4geometry += makePretty("<creationDate>" + df.format(date) + "</creationDate>", 2);
- 
+	//</editor-fold>
  
 	String bldgName = "", bldgType = "", bldgYearOfConstruction = "", xalCountryName = "", xalLocalityName = "", xalThoroughfareNumber = "", xalThoroughfareName = "", xalPostalCodeNumber = "";
 	//long bldgClass, bldgFunction, bldgUsage, bldgRoofType, bldgStoreysAboveGround, bldgStoreysBelowGround;
 	double bldgMeasuredLevels = 0;
-	
-	
 	Iterator<Element> reElement = doc.getRootElement().elementIterator("relation");
 	Element tag=null;
 	String tagKV="";
@@ -83,6 +82,7 @@ public class Lod4Buiding {
 		    System.out.println(tagKV);
 		    KeyValuePair[] bkv = getKV(tagKV);
 		    
+		    //<editor-fold desc="Description： tags K and V">
 		    if (isKeyDefined(bkv, "addr:city")) {
 			xalLocalityName = getValue(bkv, "addr:city");
 		    }
@@ -111,7 +111,9 @@ public class Lod4Buiding {
 			bldgMeasuredLevels = Double.parseDouble(getValue(bkv, "height"));
 		    } else if (isKeyDefined(bkv, "building:levels")) {
 			bldgMeasuredLevels = Double.parseDouble(getValue(bkv, "building:levels"));
+			
 		    }
+		    //</editor-fold>
 		    
 		    lod4geometry += makePretty("<bldg:Building gml:id=\"ID_" + bldgID + "\">", 2);
 		    lod4geometry += makePretty("<gml:name>" + bldgName + "</gml:name>", 3);
@@ -120,6 +122,7 @@ public class Lod4Buiding {
 		    
 		    //细化楼层房间等
 		    
+		    //<editor-fold desc="Description: genarate building  ">
 		    lod4geometry += makePretty("<!-- Address -->", 3);
 		    lod4geometry += makePretty("<bldg:address>", 3);
 		    lod4geometry += makePretty("<Address>", 4);
@@ -146,9 +149,9 @@ public class Lod4Buiding {
 		    lod4building += lod4geometry;
 		    lod4building += makePretty("</bldg:Building>", 2);
 		    lod4building += makePretty("</cityObjectMember>", 1);
+		    //</editor-fold>
 		}
 		//endregion
-		
 		
 		File out = new File("e:/LoD4.xml");
 		try {
@@ -162,9 +165,29 @@ public class Lod4Buiding {
 	}
     }
     
-    public void level(){
+    public void Level(Document doc){
+	String xpath = "/osm/relation/tag[@k='level']";
+	List<Element> Leveltags =  doc.selectNodes(xpath);
+	Iterator<Element> it = Leveltags.iterator();
+	while (it.hasNext()) {
+	    Element elem1 = it.next().getParent();
+	    Element elemLevel=(Element)elem1.selectSingleNode("child::node()[@k='level']");
+	    int buildingLevel=Integer.parseInt(elemLevel.attributeValue("v"));
+	    //double buildingLevel=Double.parseDouble(it.next().attributeValue("v"));
+	    Element elemHeight=(Element)elem1.selectSingleNode("/osm/relation/tag[@k='height']");
+	    double levelHeight=Double.parseDouble(elemHeight.attributeValue("v"));
+	    System.out.println(elem1.attributeValue("id")+"  "+buildingLevel +"  "+levelHeight);
+	}
+    }
+    
+    
+    public void Room(Element element){
+    
+    
     
     }
+    
+    
     
     public static String makePretty(String text, int numTabs) {
 	String pretty = "";

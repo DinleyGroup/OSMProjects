@@ -6,17 +6,40 @@ import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import java.io.File;
 import java.util.Iterator;
+import java.util.List;
+import org.jaxen.*;
 
 public class test {
     public static void main(String[] args) {
     
-	/*Document doc = null;
+	String xpath = "";
+	Document doc = null;
 	try {
 	    doc = new SAXReader().read(new File("e:/Test.xml"));
 	} catch (DocumentException e) {
 	    e.printStackTrace();
 	}
-	Iterator<Element> reElement = doc.getRootElement().elementIterator("relation");
+ 
+ 
+	xpath = "/osm/relation/tag[@k='level']";
+	//xpath = "//relation[//tag[@k='building']]";
+	List<Element> Leveltags =  doc.selectNodes(xpath);
+	Iterator<Element> it = Leveltags.iterator();
+
+	//Iterator<Element> it = doc.getRootElement().element("relation").element("tag");
+	while (it.hasNext()) {
+	    Element elem1 = it.next().getParent();
+	    Element elemLevel=(Element)elem1.selectSingleNode("child::node()[@k='level']");
+	    int buildingLevel=Integer.parseInt(elemLevel.attributeValue("v"));
+	    //double buildingLevel=Double.parseDouble(it.next().attributeValue("v"));
+	    Element elemHeight=(Element)elem1.selectSingleNode("/osm/relation/tag[@k='height']");
+	    double levelHeight=Double.parseDouble(elemHeight.attributeValue("v"));
+	    
+	    System.out.println(elem1.attributeValue("id")+"  "+buildingLevel +"  "+levelHeight);
+	}
+
+	
+	/*Iterator<Element> reElement = doc.getRootElement().elementIterator("relation");
 	Element elem = null;
 	//region Description
 	while (reElement.hasNext()) {
@@ -51,9 +74,9 @@ public class test {
 //	} catch (IOException e) {
 //	    e.printStackTrace();
 //	}
-	KeyValuePair[] te=getKV2("kk=>456123, vv=>456");
+/*	KeyValuePair[] te=getKV2("kk=>456123, vv=>456");
 	System.out.println(te[0].getKey()+"  "+te[0].getValue());
-	System.out.println(te[1].getKey()+"  "+te[1].getValue());
+	System.out.println(te[1].getKey()+"  "+te[1].getValue());*/
     }
     
     
