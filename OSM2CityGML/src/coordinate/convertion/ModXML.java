@@ -26,7 +26,7 @@ public class ModXML {
 	//修改就这三行代码
 	Document doc = null;
 	try {
-	    doc = new SAXReader().read(new File("e:/Test.xml"));
+	    doc = new SAXReader().read(new File("e:/EBuilding.xml"));
 	} catch (DocumentException e) {
 	    e.printStackTrace();
 	}
@@ -50,7 +50,7 @@ public class ModXML {
 	    //elem.setText("lat")= String.valueOf(node.lat);
 	}
 	
-	FileOutputStream out = new FileOutputStream("e:/Node1.xml");
+	FileOutputStream out = new FileOutputStream("e:/EBuilding2.xml");
 	OutputFormat format = OutputFormat.createPrettyPrint();
 	format.setEncoding("utf-8");
 	XMLWriter writer = null;
