@@ -51,8 +51,8 @@ public class Lod4Buiding {
 	lod4building += makePretty("<gml:name>" + "Engineering test building" + "</gml:name>", 1);
 	lod4building += makePretty("<gml:boundedBy>", 1);
 	lod4building += makePretty("<gml:Envelope srsDimension=\"3\" srsName=\"urn:ogc:def:crs,crs:EPSG::4326,crs:EPSG::4326\">", 2);
-	lod4building += makePretty("<gml:lowerCorner>" + "0" + "0" + "0" + "</gml:lowerCorner>", 3);
-	lod4building += makePretty("<gml:upperCorner>" + "4000" + "4000" + "25" + "</gml:upperCorner>", 3);
+	lod4building += makePretty("<gml:lowerCorner>" + "-0.012611143330844" + "-0.050087654172727" + "45" + "</gml:lowerCorner>", 3);
+	lod4building += makePretty("<gml:upperCorner>" + "0.051158411625351" + "0.019154661096934" + "45" + "</gml:upperCorner>", 3);
 	lod4building += makePretty("</gml:Envelope>", 2);
 	lod4building += makePretty("</gml:boundedBy>", 1);
 	//endregion
@@ -193,7 +193,7 @@ public class Lod4Buiding {
 		lod4building += makePretty("<bldg:lod4MultiSurface>", 8);
 		lod4building += makePretty("<gml:MultiSurface>", 9);
 		lod4building += makePretty("<gml:surfaceMember>", 10);
-		lod4building += makePretty("<gml:Polygon>", 11);
+		
 		
 		//Elements wallElements = (Elements) doc.selectNodes(xpathWall);
 		List memberWallList = floorElement.elements("member");
@@ -210,8 +210,7 @@ public class Lod4Buiding {
 				Element wallElement = wallTagElement.getParent();
 				String wallId = wallElement.attributeValue("id");
 				
-				lod4building += makePretty("<gml:exterior>", 12);//wall
-				lod4building += makePretty("<gml:LinearRing gml:id=\"" + wallId + "\" >", 13);
+				
 				//lod4building += makePretty("<gml:posLists rsDimension=\"3\">", 14);
 				
 				List wallList = wallElement.elements("nd");
@@ -237,7 +236,9 @@ public class Lod4Buiding {
 				    Point pt2 = new Point(points[i + 1].x, points[i + 1].y, points[i + 1].z);
 				    Point pt3 = new Point(points[i + 1].x, points[i + 1].y, points[i + 1].z + height);
 				    Point pt4 = new Point(points[i].x, points[i].y, points[i].z + height);
-				    
+				    lod4building += makePretty("<gml:Polygon>", 11);
+				    lod4building += makePretty("<gml:exterior>", 12);//wall
+				    lod4building += makePretty("<gml:LinearRing gml:id=\"" + wallId + "\" >", 13);
 				    lod4building += makePretty("<gml:posList rsDimension=\"3\">", 14);
 				    lod4building += makePretty(pt1.x + " " + pt1.y + " " + pt1.z, 15);
 				    lod4building += makePretty(pt2.x + " " + pt2.y + " " + pt2.z, 15);
@@ -245,15 +246,23 @@ public class Lod4Buiding {
 				    lod4building += makePretty(pt4.x + " " + pt4.y + " " + pt4.z, 15);
 				    lod4building += makePretty(pt1.x + " " + pt1.y + " " + pt1.z, 15);
 				    lod4building += makePretty("</gml:posList>", 14);
+				    lod4building += makePretty("</gml:LinearRing>", 13);
+				    lod4building += makePretty("</gml:exterior>", 12);
+				    lod4building += makePretty("</gml:Polygon>", 11);
 				}
+				
+				lod4building += makePretty("<gml:Polygon>", 11);
+				lod4building += makePretty("<gml:exterior>", 12);//wall
+				lod4building += makePretty("<gml:LinearRing gml:id=\"" + wallId + "\" >", 13);
 				lod4building += makePretty("<gml:posList rsDimension=\"3\">", 14);
 				for (int i = 0; i < points.length; i++) {
 				    lod4building += makePretty(points[i].x + " " + points[i].y + " " + points[i].z, 15);
 				}
 				lod4building += makePretty("</gml:posList>", 14);
-				//endregion
 				lod4building += makePretty("</gml:LinearRing>", 13);
 				lod4building += makePretty("</gml:exterior>", 12);
+				lod4building += makePretty("</gml:Polygon>", 11);
+				//endregion
 			    }
 			    //endregion
 			}
@@ -284,7 +293,7 @@ public class Lod4Buiding {
 //		    lod4building += makePretty("</gml:LinearRing>", 13);
 //		    lod4building += makePretty("</gml:interior>", 12); }*/
 		}
-		lod4building += makePretty("</gml:Polygon>", 11);
+		
 		lod4building += makePretty("</gml:surfaceMember>", 10);
 		lod4building += makePretty("</gml:MultiSurface>", 9);
 		lod4building += makePretty("</bldg:lod4MultiSurface>", 8);
