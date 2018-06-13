@@ -50,7 +50,7 @@ public class ModXML {
 	    //elem.setText("lat")= String.valueOf(node.lat);
 	}
 	
-	FileOutputStream out = new FileOutputStream("e:/EBuilding2.xml");
+	FileOutputStream out = new FileOutputStream("e:/EBuildingOSM2CityGML.xml");
 	OutputFormat format = OutputFormat.createPrettyPrint();
 	format.setEncoding("utf-8");
 	XMLWriter writer = null;

@@ -23,20 +23,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lod4Buiding.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lod4Buiding.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/citygml/Lod4Buiding.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="311" column="4" lean-forward="true" selection-start-line="311" selection-start-column="4" selection-end-line="311" selection-end-column="4" />
+            <state relative-caret-position="-1907">
+              <caret line="356" column="38" lean-forward="true" selection-start-line="356" selection-start-column="38" selection-end-line="356" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#main#0;class#Lod4Buiding#0" expanded="true" />
-                <element signature="method#osm2CityGML#0;class#Lod4Buiding#0" expanded="true" />
-                <element signature="e#3745#3769#0" expanded="false" />
-                <element signature="e#4866#4895#0" expanded="false" />
-                <element signature="e#14093#14165#0" expanded="false" />
-                <element signature="method#makeGmlFile#0;class#Lod4Buiding#0" expanded="true" />
+                <marker date="1528882902887" expanded="false" signature="4660:4757" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="4839:4895" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="4940:4998" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="5047:5116" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="5160:5222" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="5268:5332" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="5383:5455" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="5492:5536" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="5573:5617" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="5656:5732" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="5780:5865" ph="{...}" />
+                <marker date="1528882902887" expanded="true" signature="10279:10908" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="10374:10427" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="10482:10538" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="10600:10654" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="10710:10777" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="10834:10904" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="12092:15081" ph="{...}" />
+                <marker date="1528882902887" expanded="true" signature="12283:12775" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="12935:14416" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="13381:13516" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="14752:14852" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="15173:16810" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="16904:18547" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="18658:21489" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="19023:20239" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="19251:19359" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="19431:19536" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="19779:19879" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="20706:20803" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="21040:21134" ph="{...}" />
+                <marker date="1528882902887" expanded="true" signature="21886:24960" ph="{...}" />
+                <marker date="1528882902887" expanded="true" signature="22021:22389" ph="{...}" />
+                <marker date="1528882902887" expanded="true" signature="22458:22825" ph="{...}" />
+                <marker date="1528882902887" expanded="true" signature="22831:23188" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="25154:28126" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="25285:25627" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="25692:26033" ph="{...}" />
+                <marker date="1528882902887" expanded="false" signature="26039:26368" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinateConversion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateConversion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinateTransform.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateTransform.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,6 +108,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>lod4geometry</find>
+      <find>yes</find>
     </findStrings>
     <replaceStrings>
       <replace>lod4building</replace>
@@ -82,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/org/citygml/Lod4BuidingTest.groovy" />
         <option value="$PROJECT_DIR$/src/org/citygml/Lod4BuidingTest.java" />
         <option value="$PROJECT_DIR$/src/test/org/citygml/Lod4BuidingTest.java" />
-        <option value="$PROJECT_DIR$/src/coordinate/convertion/ModXML.java" />
         <option value="$PROJECT_DIR$/src/org/citygml/BuildingCityGML.java" />
+        <option value="$PROJECT_DIR$/src/coordinate/convertion/ModXML.java" />
         <option value="$PROJECT_DIR$/src/org/citygml/Lod4Buiding.java" />
       </list>
     </option>
@@ -111,10 +165,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="171" />
-    <option name="y" value="87" />
-    <option name="width" value="1004" />
-    <option name="height" value="745" />
+    <option name="x" value="689" />
+    <option name="width" value="689" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -134,7 +187,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers ProjectPane="false" />
       <showModules />
@@ -147,10 +200,43 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OSM2CityGML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OSM2CityGML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSM2CityGML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OSM2CityGML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSM2CityGML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OSM2CityGML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="convertion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSM2CityGML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OSM2CityGML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="citygml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/01-org/hamcrest-core-1.3.jar!/" />
@@ -159,6 +245,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="SearchEverywhereHistoryKey" value="yes&#9;PSI&#9;JAVA://org.eclipse.ui.dialogs.YesNoCancelListSelectionDialog" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -389,8 +476,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Lod4Buiding" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Lod4BuidingTest.testLevel" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ModXML" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ModXML" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Lod4BuidingTest.testLevel" />
         <item index="3" class="java.lang.String" itemvalue="Application.BuildingCityGML" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.Lod4BuidingTest.level" />
       </list>
@@ -449,6 +536,14 @@
       <workItem from="1527900661272" duration="10163000" />
       <workItem from="1527916123177" duration="4879000" />
       <workItem from="1527930764044" duration="2555000" />
+      <workItem from="1528073178221" duration="9186000" />
+      <workItem from="1528093700637" duration="1434000" />
+      <workItem from="1528439327542" duration="8349000" />
+      <workItem from="1528696574441" duration="5507000" />
+      <workItem from="1528774442109" duration="22860000" />
+      <workItem from="1528808580177" duration="1576000" />
+      <workItem from="1528855091992" duration="14147000" />
+      <workItem from="1528877205154" duration="5675000" />
     </task>
     <servers />
   </component>
@@ -485,7 +580,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278368000" />
+    <option name="totallyTimeSpent" value="347102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,27 +595,27 @@
     <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.4970015" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21538462" sideWeight="0.505997" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21538462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21538462" sideWeight="0.494003" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1844078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1874063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25641027" sideWeight="0.494003" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -544,14 +639,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateConversion.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -560,61 +647,11 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="146" />
+      <option name="time" value="197" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateTransform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OSM2CityGML.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OSM2CityGML.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OSM2CityGML.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OSM2CityGML.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OSM2CityGML.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/hsqldb-2.3.0.jar/org/hsqldb/lib/tar/rb/listing.format.text" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -750,24 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateTransform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
-          <folding>
-            <element signature="method#main#0;class#CoordinateConversion#0" expanded="true" />
-            <element signature="method#coordConvertPrint#0;class#CoordinateConversion#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/citygml/KeyValuePair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -840,35 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/org/citygml/Lod4BuidingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding>
-            <element signature="method#testLevel#0;class#Lod4BuidingTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/ModXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,16 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12609">
-          <caret line="622" column="0" lean-forward="false" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
-          <folding>
-            <element signature="e#22821#22822#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,9 +887,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://H:/Eclipse/dom4j-1.6.1/dom4j-1.6.1.jar!/org/dom4j/tree/FlyweightAttribute.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://H:/Eclipse/dom4j-1.6.1/dom4j-1.6.1.jar!/org/dom4j/QName.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="994" column="0" lean-forward="false" selection-start-line="994" selection-start-column="0" selection-end-line="994" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="434" column="0" lean-forward="false" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+          <folding>
+            <element signature="e#15590#15591#0" expanded="false" />
+            <element signature="e#15635#15636#0" expanded="false" />
+            <element signature="method#rangeCheck#0;class#ArrayList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://H:/Eclipse/dom4j-1.6.1/dom4j-1.6.1.jar!/org/dom4j/tree/DefaultElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="605" column="0" lean-forward="false" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://H:/Eclipse/dom4j-1.6.1/dom4j-1.6.1.jar!/org/dom4j/tree/AbstractAttribute.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://H:/Eclipse/dom4j-1.6.1/dom4j-1.6.1.jar!/org/dom4j/tree/AbstractElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="416" column="0" lean-forward="false" selection-start-line="416" selection-start-column="0" selection-end-line="416" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/org/citygml/Lod4BuidingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="113" column="2" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
+          <folding>
+            <element signature="method#testMain#0;class#Lod4BuidingTest#0" expanded="false" />
+            <element signature="method#testLevel#0;class#Lod4BuidingTest#0" expanded="false" />
+            <element signature="method#testMakePretty#0;class#Lod4BuidingTest#0" expanded="false" />
+            <element signature="method#testGetKV#0;class#Lod4BuidingTest#0" expanded="false" />
+            <element signature="method#testIsKeyDefined#0;class#Lod4BuidingTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/01-org/geotools-18.0/ui.workbench-3.6.1.M20100826-1330.jar!/org/eclipse/ui/dialogs/YesNoCancelListSelectionDialog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="501" column="25" lean-forward="false" selection-start-line="501" selection-start-column="19" selection-end-line="501" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/ModXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OSM2CityGML.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="354">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
@@ -913,17 +995,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/citygml/Lod4Buiding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="311" column="4" lean-forward="true" selection-start-line="311" selection-start-column="4" selection-end-line="311" selection-end-column="4" />
+        <state relative-caret-position="-1907">
+          <caret line="356" column="38" lean-forward="true" selection-start-line="356" selection-start-column="38" selection-end-line="356" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#main#0;class#Lod4Buiding#0" expanded="true" />
-            <element signature="method#osm2CityGML#0;class#Lod4Buiding#0" expanded="true" />
-            <element signature="e#3745#3769#0" expanded="false" />
-            <element signature="e#4866#4895#0" expanded="false" />
-            <element signature="e#14093#14165#0" expanded="false" />
-            <element signature="method#makeGmlFile#0;class#Lod4Buiding#0" expanded="true" />
+            <marker date="1528882902887" expanded="false" signature="4660:4757" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="4839:4895" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="4940:4998" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="5047:5116" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="5160:5222" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="5268:5332" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="5383:5455" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="5492:5536" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="5573:5617" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="5656:5732" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="5780:5865" ph="{...}" />
+            <marker date="1528882902887" expanded="true" signature="10279:10908" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="10374:10427" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="10482:10538" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="10600:10654" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="10710:10777" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="10834:10904" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="12092:15081" ph="{...}" />
+            <marker date="1528882902887" expanded="true" signature="12283:12775" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="12935:14416" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="13381:13516" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="14752:14852" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="15173:16810" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="16904:18547" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="18658:21489" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="19023:20239" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="19251:19359" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="19431:19536" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="19779:19879" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="20706:20803" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="21040:21134" ph="{...}" />
+            <marker date="1528882902887" expanded="true" signature="21886:24960" ph="{...}" />
+            <marker date="1528882902887" expanded="true" signature="22021:22389" ph="{...}" />
+            <marker date="1528882902887" expanded="true" signature="22458:22825" ph="{...}" />
+            <marker date="1528882902887" expanded="true" signature="22831:23188" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="25154:28126" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="25285:25627" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="25692:26033" ph="{...}" />
+            <marker date="1528882902887" expanded="false" signature="26039:26368" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coordinate/convertion/CoordinateConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
